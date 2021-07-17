@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+import Common from "./common/Common";
+import axios from "axios";
+
+
+axios.defaults.baseURL='http://localhost:8000/api';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Common />
   </React.StrictMode>,
   document.getElementById('root')
 );
