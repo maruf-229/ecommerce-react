@@ -73,7 +73,7 @@ class Index extends Component {
                         </div>
                         <div className="product-image">
                             <a href="product-detail.html">
-                                    <img src={"http://localhost:8000/"+product.image} alt="product" />
+                                    <img src={"https://localhost/phpmyadmin/sql.php?db=spa_ecom&table=products&pos=0"+product.image} alt="product" />
                             </a>
                             <div className="product-action">
                                     <a href="#"><i className="fa fa-cart-plus" /></a>
